@@ -4,6 +4,7 @@ body, button, input{
 
 body{
     margin: 72px 140px 0px;
+    user-select: none;
 }
 
 h1{

@@ -69,7 +69,7 @@ function stopTimer() {
     unfreezeInputs();
     updateValue("minutes",$("#minutes-input").val());
     let seconds = $("#seconds-input").val();
-    // if(seconds < 10) { seconds = "0" + seconds; }
+    if(seconds == 0) { seconds = "0" + seconds; }
     updateValue("seconds", seconds);
 }
 function pauseTimer() {
