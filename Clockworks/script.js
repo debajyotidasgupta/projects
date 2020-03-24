@@ -20,7 +20,7 @@ function soundAlarm() {
 
 function updateValue(key, value){
     if(value<0){
-        value="0";
+        value=0;
     }
     if(key=="seconds"){
         if(value<10){
@@ -69,7 +69,7 @@ function stopTimer() {
     unfreezeInputs();
     updateValue("minutes",$("#minutes-input").val());
     let seconds = $("#seconds-input").val();
-    if(seconds < 10) { seconds = "0" + seconds; }
+    // if(seconds < 10) { seconds = "0" + seconds; }
     updateValue("seconds", seconds);
 }
 function pauseTimer() {
