@@ -6,5 +6,5 @@
 ## Chat-screen
  https://chat-studio.herokuapp.com/
  
-## Chat-screen
+## 3D-animation
  https://debajyotidasgupta.github.io/projects/3D-animation
