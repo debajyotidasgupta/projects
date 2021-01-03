@@ -1,0 +1,10 @@
+@function get-image($img) {
+    @return '../images/#{$img}';
+}
+
+
+@function px-to-rem($size) {
+    $value: $size / 16px;
+    @return #{$value}rem;
+}
+
