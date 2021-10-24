@@ -1,5 +1,5 @@
 # projects
-Author: Debajyoti
+Author: Debajyoti Dasgupta
 
 ## Travel forest
  An asthetic UI for a web app made in HTML, JS and CSS \
