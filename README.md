@@ -1,6 +1,7 @@
 # projects
 
 ## Travel forest
+ An asthetic UI for a web app made in HTML, JS and CSS
  https://debajyotidasgupta.github.io/projects/Travel-Forest/
 
 ## Get It Done (To-Do-App)
