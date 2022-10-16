@@ -44,7 +44,10 @@ function wordSphere(canvas, texts, counts, options) {
     initialRotationZ = 0,
   } = options;
   
+  // variables for the velocites
   let vx = initialVelocityX, vy = initialVelocityY;
+  
+  // variables for the rotation
   let rx = initialRotationX, rz = initialRotationZ;
   
   // canvas setup
@@ -60,6 +63,8 @@ function wordSphere(canvas, texts, counts, options) {
 
   // scrolling
   let clicked = false, lastX, lastY;
+
+  // Adding mouse up and down event listeners
   canvas.addEventListener('mousedown', event => {
     clicked = true;
     lastX = event.screenX;
@@ -137,11 +142,13 @@ function wordSphere(canvas, texts, counts, options) {
     rx += vx * 0.01;
   }
 
+  // function to start the looping behavious
   function startLoop() {
     looping = true;
     window.requestAnimationFrame(rendererLoop);
   }
 
+  // function to terminate the looping behaviour
   function stopLoop() {
     looping = false;
   }
