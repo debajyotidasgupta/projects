@@ -1,6 +1,20 @@
 # projects
 Author: Debajyoti Dasgupta
 
+# How to run projects
+
+## Clone the project
+
+```sh
+git clone https://github.com/debajyoti-iitkgp/projects.git
+```
+
+## Install Dependencies
+
+```js
+npm -i
+```
+
 ## Travel forest
  An asthetic UI for a web app made in HTML, JS and CSS \
  https://debajyotidasgupta.github.io/projects/Travel-Forest/
