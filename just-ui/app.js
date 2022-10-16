@@ -1,13 +1,19 @@
+// get the canvas element
 const canvas = document.getElementById('canvas');
 
+// constants corresponding to the languages
 const texts = [
   'HTML5', 'Javascript', 'Scala', 'Kotlin', 'Erlang',
   'CSS', 'Python', 'Java', 'PostgreSQL', 'MongoDB',
   'Android', 'TensorFlow', 'Flask', 'React', 'Redis',
   'NodeJS', 'OCaml', 'Redux', 'Rx',
 ];
+
+// Constants for the counts
 const counts = [1,2,4,5,4,2,1];
 
+
+// constants for the options
 const options = {
   tilt: Math.PI / 9,
   initialVelocityX: 0.09,
@@ -16,6 +22,7 @@ const options = {
   initialRotationZ: 0
 };
 
+// create the word sphere
 wordSphere(canvas, texts, counts, options);
  
 /**
