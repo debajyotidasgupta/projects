@@ -10,6 +10,6 @@ Same as cloning the parent. See [debajyoti-iitgp/projects](github.com/debajyoti-
 
 Youtube: [Dev Ed](https://www.youtube.com/watch?v=XK7T3mY1V-w)
 
-`index.html`: entry level index and landing page, contains the HTML code
-`app.js`: javascript file for the animations
-`style.css`: cascading stylesheets file for the effects
+- `index.html`: entry level index and landing page, contains the HTML code
+- `app.js`: javascript file for the animations
+- `style.css`: cascading stylesheets file for the effects
